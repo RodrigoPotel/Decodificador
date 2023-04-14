@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../stylesheets/decodificadorTexto.css">
+        <title>Decodificador de Texto</title>
+    </head>
+ 
+    <body>
+        <header>
+            <img src="../assets/logo-alura.png" alt="logo-alura">
+            <h1>Decodificador de Texto Oracle & Alura</h1>
+        </header>
+            
+        <main class="container"> 
+            <article class= "article-1">
+
+                <section class="mensagem-do-texto">
+                    <textarea class="digite-texto" id="texto-criptografado" name="texto-criptografado" placeholder="Digite seu texto" resize="none"></textarea>
+                </section>
+                
+                <section class="secao-btns-criptos">
+                    <button class="btn" id="criptografar">Criptografar</button>
+                    <button class="btn" id="descriptografar">Descriptografar</button>
+                </section>
+            </article> 
+            <article class="article-2">
+                <textarea class="resultado" id="resultado-texto"></textarea>
+                <button id="copiar">Copiar</button>
+            </article>
+
+        </main>
+        <footer>
+            <p>&copy; 2023 - Decodificador de Texto</p>
+        </footer>
+    </body>
+    <script src="../src/models/decodificadorTexto.js" defer></script>
+</html>

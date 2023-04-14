@@ -1,0 +1,109 @@
+body {
+    background-image: url("../assets/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fdfdfd;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+header {
+    display: flex;
+}
+
+header > h1 {
+    text-align: center;
+    margin-left: 15rem;
+    font-family: system-ui;
+}
+
+img {
+    height: 7vh;
+    margin-top: 10px;
+    border: 1px black;
+    filter: drop-shadow(1px 2px 5px white);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+textarea {
+    background: #515251;
+    border-radius: 25px;
+    border: none;
+    opacity: 0.5;
+    padding: 1rem 0 0 2rem;
+    resize: none;
+}
+
+textarea:focus {
+    outline: 2px solid #1DB954;
+  }
+  
+
+#texto-criptografado {
+    width: 94vh;
+    height: 51vh;
+}
+
+.secao-btns-criptos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+}
+
+button {
+    box-shadow: 0.5px 0.5px 8px 0px #1DB954;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8px;
+    width: auto;
+    height: 7vh;
+    border-radius: 13px;
+    font-size: 29px;
+    align-items: center;
+    border: none;
+    padding: 0 1.5rem;
+    cursor: pointer;
+    background-color: #1DB954;
+    color: white;
+}
+
+#copiar { 
+    background-color: #0A3871;
+    box-shadow: 0px 0px 8px 0px #0A3871;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7.5rem;
+    margin-left: 12rem;
+}
+
+.resultado {
+    width: 60vh;
+    height: 51vh;
+    background: #515251;
+    border-radius: 25px;
+    border: none;
+    opacity: 0.5;
+    padding: 1rem 0 0 2rem;
+}
+
+#texto-criptografado::placeholder, #texto-criptografado, .resultado {
+    font-size: 25px;
+    color: white;
+}
+
+footer {
+    margin-top: 2.5rem;
+    opacity: 0.5;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* cursor: not-allowed; */

@@ -1,12 +1,42 @@
-#Decoficador de Texto.
+# Decoficador de Texto.
 
-###Um challenge proposto pela Alura pra passar para próxima fase do processo, para adquirir uma bolsa.
+Uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
+
+```
+As "chaves" de criptografia que utilizaremos são:
+A letra "e" é convertida para "enter"
+A letra "i" é convertida para "imes"
+A letra "a" é convertida para "ai"
+A letra "o" é convertida para "ober"
+A letra "u" é convertida para "ufat"
+```
+
+## Requisitos:
+```
+- Deve funcionar apenas com letras minúsculas
+- Não devem ser utilizados letras com acentos nem caracteres especiais
+- Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+```
+
+Por exemplo:
+```
+"gato" => "gaitober"
+gaitober" => "gato"
+```
+
+A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções
+O resultado deve ser exibido na tela.
+Extras:
+- Um botão que copie o texto criptografado/descriptografado para a área de transferência - ou seja, que tenha a mesma funcionalidade do ctrl+C ou da opção "copiar" do menu dos aplicativos.
 
 Stacks utilizadas:
-
+```
 - JavaScript
 - HTML 5
 - CSS
+```
 
 
-<img width="1424" alt="Captura de Tela 2023-04-14 às 13 44 16" src="https://user-images.githubusercontent.com/113199352/232106226-650c448c-3ef4-46f0-837b-d9562d772a2a.png">
+https://user-images.githubusercontent.com/113199352/232107643-12a7b4bb-e5cd-4a28-acc6-46aadc516c5f.mov
+https://user-images.githubusercontent.com/113199352/232108349-a5d7afed-44fd-4978-ba2f-76a9ed14e4ff.mov
+

@@ -37,6 +37,10 @@ Stacks utilizadas:
 ```
 
 
-https://user-images.githubusercontent.com/113199352/232107643-12a7b4bb-e5cd-4a28-acc6-46aadc516c5f.mov
-https://user-images.githubusercontent.com/113199352/232108349-a5d7afed-44fd-4978-ba2f-76a9ed14e4ff.mov
+https://user-images.githubusercontent.com/113199352/232112196-179ebfca-ff99-4c6a-ac9e-697ec8030500.mov
+
+
+https://user-images.githubusercontent.com/113199352/232112228-e09f6422-545c-410a-8599-5cc2357b3ee5.mov
+
+
 
